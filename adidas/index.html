@@ -1,0 +1,525 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adidas | Home</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- OR if the HTML file is in a subdirectory -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-white text-gray-900 font-sans">
+<form  action="/index.php" method="POST">
+<!-- Utility Links (Top right) -->
+<div class="text-sm text-right px-4 py-2 text-gray-600 dark:text-gray-300 hidden md:block">
+  <a href="#" class="mx-2 hover:underline">help</a>
+  <a href="#" class="mx-2 hover:underline">orders and returns</a>
+  <a href="#" class="mx-2 hover:underline">sign up</a>
+  <a href="#" class="mx-2 hover:underline">log in</a>
+</div>
+
+<!-- Main Header -->
+<header class="sticky top-0 z-50 px-4 md:px-6 py-3 border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-all duration-300 shadow-sm">
+  <div class="flex items-center justify-between">
+    <!-- Left: Logo + Nav -->
+    <div class="flex items-center space-x-6">
+      <img src="images/adidas-logo.png" alt="Adidas Logo" class="w-10 h-auto" />
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex space-x-5 text-sm font-semibold uppercase tracking-wider">
+        <!-- Shoes Dropdown -->
+        <div class="dropdown relative">
+          <button class="hover:underline flex items-center">
+            Shoes
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu dark:bg-gray-800 dark:text-white">
+            <h4 class="dark:text-white">SHOES CATEGORIES</h4>
+            <a href="#" class="dark:hover:bg-gray-700">All Shoes</a>
+            <a href="#" class="dark:hover:bg-gray-700">New Arrivals</a>
+            <a href="#" class="dark:hover:bg-gray-700">Best Sellers</a>
+            <a href="#" class="dark:hover:bg-gray-700">Running Shoes</a>
+            <a href="#" class="dark:hover:bg-gray-700">Training Shoes</a>
+            <a href="#" class="dark:hover:bg-gray-700">Lifestyle Shoes</a>
+          </div>
+        </div>
+        
+        <!-- Men Dropdown -->
+        <div class="dropdown relative">
+          <button class="hover:underline flex items-center">
+            Men
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu dark:bg-gray-800 dark:text-white">
+            <h4 class="dark:text-white">MEN'S COLLECTIONS</h4>
+            <a href="#" class="dark:hover:bg-gray-700">New Arrivals</a>
+            <a href="#" class="dark:hover:bg-gray-700">Shoes</a>
+            <a href="#" class="dark:hover:bg-gray-700">Clothing</a>
+            <a href="#" class="dark:hover:bg-gray-700">Accessories</a>
+            <a href="#" class="dark:hover:bg-gray-700">Sportswear</a>
+            <a href="#" class="dark:hover:bg-gray-700">Sale</a>
+          </div>
+        </div>
+        
+        <!-- Women Dropdown -->
+        <div class="dropdown relative">
+          <button class="hover:underline flex items-center">
+            Women
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu dark:bg-gray-800 dark:text-white">
+            <h4 class="dark:text-white">WOMEN'S COLLECTIONS</h4>
+            <a href="#" class="dark:hover:bg-gray-700">New Arrivals</a>
+            <a href="#" class="dark:hover:bg-gray-700">Shoes</a>
+            <a href="#" class="dark:hover:bg-gray-700">Clothing</a>
+            <a href="#" class="dark:hover:bg-gray-700">Accessories</a>
+            <a href="#" class="dark:hover:bg-gray-700">Sportswear</a>
+            <a href="#" class="dark:hover:bg-gray-700">Sale</a>
+          </div>
+        </div>
+        
+        <!-- Kids Dropdown -->
+        <div class="dropdown relative">
+          <button class="hover:underline flex items-center">
+            Kids
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu dark:bg-gray-800 dark:text-white">
+            <h4 class="dark:text-white">KIDS' COLLECTIONS</h4>
+            <a href="#" class="dark:hover:bg-gray-700">New Arrivals</a>
+            <a href="#" class="dark:hover:bg-gray-700">Shoes</a>
+            <a href="#" class="dark:hover:bg-gray-700">Clothing</a>
+            <a href="#" class="dark:hover:bg-gray-700">Accessories</a>
+            <a href="#" class="dark:hover:bg-gray-700">Sportswear</a>
+            <a href="#" class="dark:hover:bg-gray-700">Sale</a>
+          </div>
+        </div>
+        
+        <!-- Sports Dropdown -->
+        <div class="dropdown relative">
+          <button class="hover:underline flex items-center">
+            Sports
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu dark:bg-gray-800 dark:text-white">
+            <h4 class="dark:text-white">SPORTS</h4>
+            <a href="#" class="dark:hover:bg-gray-700">Running</a>
+            <a href="#" class="dark:hover:bg-gray-700">Gym & Training</a>
+            <a href="#" class="dark:hover:bg-gray-700">Cricket</a>
+            <a href="#" class="dark:hover:bg-gray-700">Football</a>
+            <a href="#" class="dark:hover:bg-gray-700">Walking</a>
+            <a href="#" class="dark:hover:bg-gray-700">Hiking & Outdoor</a>
+            <a href="#" class="dark:hover:bg-gray-700">Tennis</a>
+          </div>
+        </div>
+        
+        <a href="#" class="hover:underline">Lifestyle</a>
+        <a href="#" class="text-black dark:text-white font-extrabold hover:underline">Outlet</a>
+      </nav>
+    </div>
+
+    <!-- Right: Search, Icons, Dark Mode -->
+    <div class="flex items-center space-x-4">
+      <!-- Search Bar -->
+      <div class="flex items-center bg-gray-100 dark:bg-gray-800 rounded px-3 py-1 focus-within:ring-2 ring-black dark:ring-white transition-all duration-300">
+        <input
+          type="text"
+          placeholder="Search"
+          class="bg-transparent outline-none text-sm w-20 md:w-32 focus:w-48 transition-all duration-300"
+        />
+        <svg class="w-5 h-5 text-gray-600 dark:text-gray-300 ml-2" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M12.9 14.32a8 8 0 111.414-1.414l4.386 4.386-1.414 1.414-4.386-4.386zM8 14a6 6 0 100-12 6 6 0 000 12z" />
+        </svg>
+      </div>
+
+      <!-- Icons -->
+      <div class="flex items-center space-x-4">
+        <!-- Account -->
+        <div class="relative">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round"
+            d="M5.121 17.804A4 4 0 0112 16a4 4 0 016.879 1.804M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          <span class="absolute -top-2 -right-2 bg-yellow-400 text-xs rounded-full px-1 text-black font-bold">1</span>
+        </div>
+
+        <!-- Wishlist -->
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+          viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round"
+          d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 116.364 6.364L12 21.682l-7.682-7.682a4.5 4.5 0 010-6.364z"/></svg>
+
+        <!-- Bag -->
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+          viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round"
+          d="M5 8h14l1 12H4L5 8zm7-4a3 3 0 00-3 3h6a3 3 0 00-3-3z"/></svg>
+
+        <!-- Dark Mode Toggle -->
+        <button id="themeToggle" class="ml-2 focus:outline-none">
+          <svg id="moonIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round"
+            d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+          <svg id="sunIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round"
+            d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364l-1.414 1.414M6.05 17.95l-1.414-1.414M17.95 17.95l-1.414-1.414M6.05 6.05L4.636 7.464"/></svg>
+        </button>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenuToggle" class="md:hidden focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+          viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round"
+          d="M4 6h16M4 12h16M4 18h16" /></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <nav id="mobileMenu" class="md:hidden mt-3 space-y-2 text-sm font-semibold uppercase tracking-wider hidden">
+    <!-- Shoes Mobile Dropdown -->
+    <div class="pl-2">
+      <button class="mobile-dropdown-toggle flex items-center w-full justify-between">
+        Shoes
+        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+        </svg>
+      </button>
+      <div class="mobile-dropdown-menu pl-4 mt-1 space-y-1 hidden">
+        <a href="#" class="block">All Shoes</a>
+        <a href="#" class="block">New Arrivals</a>
+        <a href="#" class="block">Best Sellers</a>
+        <a href="#" class="block">Running Shoes</a>
+        <a href="#" class="block">Training Shoes</a>
+        <a href="#" class="block">Lifestyle Shoes</a>
+      </div>
+    </div>
+    
+    <!-- Men Mobile Dropdown -->
+    <div class="pl-2">
+      <button class="mobile-dropdown-toggle flex items-center w-full justify-between">
+        Men
+        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+        </svg>
+      </button>
+      <div class="mobile-dropdown-menu pl-4 mt-1 space-y-1 hidden">
+        <a href="#" class="block">New Arrivals</a>
+        <a href="#" class="block">Shoes</a>
+        <a href="#" class="block">Clothing</a>
+        <a href="#" class="block">Accessories</a>
+        <a href="#" class="block">Sportswear</a>
+        <a href="#" class="block">Sale</a>
+      </div>
+    </div>
+    
+    <!-- Women Mobile Dropdown -->
+    <div class="pl-2">
+      <button class="mobile-dropdown-toggle flex items-center w-full justify-between">
+        Women
+        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+        </svg>
+      </button>
+      <div class="mobile-dropdown-menu pl-4 mt-1 space-y-1 hidden">
+        <a href="#" class="block">New Arrivals</a>
+        <a href="#" class="block">Shoes</a>
+        <a href="#" class="block">Clothing</a>
+        <a href="#" class="block">Accessories</a>
+        <a href="#" class="block">Sportswear</a>
+        <a href="#" class="block">Sale</a>
+      </div>
+    </div>
+    
+    <!-- Kids Mobile Dropdown -->
+    <div class="pl-2">
+      <button class="mobile-dropdown-toggle flex items-center w-full justify-between">
+        Kids
+        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+        </svg>
+      </button>
+      <div class="mobile-dropdown-menu pl-4 mt-1 space-y-1 hidden">
+        <a href="#" class="block">New Arrivals</a>
+        <a href="#" class="block">Shoes</a>
+        <a href="#" class="block">Clothing</a>
+        <a href="#" class="block">Accessories</a>
+        <a href="#" class="block">Sportswear</a>
+        <a href="#" class="block">Sale</a>
+      </div>
+    </div>
+    
+    <!-- Sports Mobile Dropdown -->
+    <div class="pl-2">
+      <button class="mobile-dropdown-toggle flex items-center w-full justify-between">
+        Sports
+        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+        </svg>
+      </button>
+      <div class="mobile-dropdown-menu pl-4 mt-1 space-y-1 hidden">
+        <a href="#" class="block">Running</a>
+        <a href="#" class="block">Gym & Training</a>
+        <a href="#" class="block">Cricket</a>
+        <a href="#" class="block">Football</a>
+        <a href="#" class="block">Walking</a>
+        <a href="#" class="block">Hiking & Outdoor</a>
+        <a href="#" class="block">Tennis</a>
+      </div>
+    </div>
+    
+    <a href="#" class="block">Lifestyle</a>
+    <a href="#" class="block font-bold">Outlet</a>
+  </nav>
+</header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/originals-fw21-sustainability-hp-tc-global-masthead-d-d_tcm221-847988.jpg" alt="Adidas Shoes" class="hero-img" />
+    <div class="hero-overlay">
+      <h2>Step into Performance</h2>
+      <p>Discover the latest in performance footwear and apparel</p>
+      <button>Shop Now</button>
+    </div>
+  </section>
+
+  <!-- New Arrivals Section -->
+  <section class="py-12 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex justify-between items-center mb-8">
+        <h3 class="text-2xl font-bold">NEW ARRIVALS</h3>
+        <a href="#" class="text-sm font-semibold hover:underline">ALL SNEAKERS</a>
+      </div>
+      
+      <div class="grid md:grid-cols-4 gap-6">
+        <!-- Duramo Card -->
+        <div class="product-card">
+          <div class="img-wrapper">
+            <img src="assets/images/Duramo1.png" class="default-img" alt="Duramo Running Shoes">
+
+          </div>
+          <div class="p-4">
+            <h4 class="font-semibold mb-2">DURAMO</h4>
+            <p class="text-sm text-gray-600">Running Shoes for those looking to learn the ropes and push themselves to the next level.</p>
+          </div>
+        </div>
+        
+        <!-- Advantage Card -->
+        <div class="product-card">
+          <div class="img-wrapper">
+            <img src="assets/images/Advantage1.png" class="default-img" alt="Advantage Sneakers">
+            </div>
+          <div class="p-4">
+            <h4 class="font-semibold mb-2">ADVANTAGE</h4>
+            <p class="text-sm text-gray-600">Stylish, everyday sneakers with gentle support as you go about your day</p>
+          </div>
+        </div>
+        
+        <!-- VL Court Card -->
+        <div class="product-card">
+          <div class="img-wrapper">
+            <img src="assets/images/VL_court.png" class="default-img" alt="VL Court Trainers">
+          </div>
+          <div class="p-4">
+            <h4 class="font-semibold mb-2">VL COURT</h4>
+            <p class="text-sm text-gray-600">Dress them up. Dress them down. Trainers to effortlessly match anything in your wardrobe.</p>
+          </div>
+        </div>
+        
+        <!-- Grand Court Card -->
+        <div class="product-card">
+          <div class="img-wrapper">
+            <img src="assets/images/grand_court.png" class="default-img" alt="Grand Court Shoes">
+          </div>
+          <div class="p-4">
+            <h4 class="font-semibold mb-2">GRAND COURT</h4>
+            <p class="text-sm text-gray-600">Shoes with timeless design and sleek silhouette to turn any outfit into a standout look.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promo Section -->
+  <section class="py-12 bg-gray-100 dark:bg-gray-800">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-8">
+        <h3 class="text-2xl font-bold">NEVER OUT OF STYLE</h3>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <a href="#" class="text-lg font-semibold hover:underline">SHOES UNDER ₹5000</a>
+        </div>
+        <div class="text-center">
+          <a href="#" class="text-lg font-semibold hover:underline">NEW ARRIVALS</a>
+        </div>
+        <div class="text-center">
+          <a href="#" class="text-lg font-semibold hover:underline">OUTLET</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Section -->
+  <section class="py-12 px-6">
+    <h3 class="text-2xl font-bold text-center mb-8">Featured Collections</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <!-- Card 1 -->
+      <div class="product-card">
+        <div class="img-wrapper">
+          <img src="assets/images/image4.png" class="default-img" alt="Running Shoes">
+          <img src="assets/images/image4t.png" class="hover-img" alt="Running Shoes Hover">
+        </div>
+        <div class="p-4">
+          <h4 class="font-semibold mb-2">Running</h4>
+          <p class="text-sm text-gray-600">Gear built for speed and endurance.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="product-card">
+        <div class="img-wrapper">
+          <img src="assets/images/image3.png" class="default-img" alt="Lifestyle">
+          <img src="assets/images/image3t.png" class="hover-img" alt="Lifestyle Hover">
+        </div>
+        <div class="p-4">
+          <h4 class="font-semibold mb-2">Lifestyle</h4>
+          <p class="text-sm text-gray-600">Fresh fits and modern streetwear.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="product-card">
+        <div class="img-wrapper">
+          <img src="assets/images/image2.png" class="default-img" alt="Originals">
+          <img src="assets/images/image2t.png" class="hover-img" alt="Originals Hover">
+        </div>
+        <div class="p-4">
+          <h4 class="font-semibold mb-2">Originals</h4>
+          <p class="text-sm text-gray-600">Classic adidas style reimagined.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="py-12 bg-black text-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-2xl font-bold mb-4">JOIN OUR NEWSLETTER</h3>
+      <p class="mb-6 max-w-2xl mx-auto">Get the latest updates on new products and upcoming sales</p>
+      <div class="flex flex-col md:flex-row justify-center max-w-md mx-auto">
+        <input type="email" placeholder="Your email address" class="px-4 py-2 rounded-l text-black w-full mb-2 md:mb-0">
+        <button class="bg-white text-black px-6 py-2 font-bold md:rounded-r">Sign Up</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div>
+          <h4 class="font-bold text-lg mb-4">PRODUCTS</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">Shoes</a></li>
+            <li><a href="#" class="hover:underline">Clothing</a></li>
+            <li><a href="#" class="hover:underline">Accessories</a></li>
+            <li><a href="#" class="hover:underline">New Arrivals</a></li>
+            <li><a href="#" class="hover:underline">Best Sellers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-lg mb-4">SPORTS</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">Running</a></li>
+            <li><a href="#" class="hover:underline">Football</a></li>
+            <li><a href="#" class="hover:underline">Basketball</a></li>
+            <li><a href="#" class="hover:underline">Training</a></li>
+            <li><a href="#" class="hover:underline">Outdoor</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-lg mb-4">COMPANY</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">About Us</a></li>
+            <li><a href="#" class="hover:underline">Careers</a></li>
+            <li><a href="#" class="hover:underline">Press</a></li>
+            <li><a href="#" class="hover:underline">Sustainability</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-lg mb-4">HELP</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">Customer Service</a></li>
+            <li><a href="#" class="hover:underline">Returns & Exchanges</a></li>
+            <li><a href="#" class="hover:underline">Shipping</a></li>
+            <li><a href="#" class="hover:underline">Order Tracking</a></li>
+            <li><a href="#" class="hover:underline">Store Locator</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <p>&copy; 2025 Adidas. All rights reserved.</p>
+        </div>
+        <div class="flex space-x-4">
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook" class="w-6 h-6"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" class="w-6 h-6"></a>
+          <a href="https://www.instagram.com/mohammed_parvez_988/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="w-6 h-6"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" class="w-6 h-6"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Toggle mobile menu
+    document.getElementById('mobileMenuToggle').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+    
+    // Toggle all mobile dropdown menus
+    document.querySelectorAll('.mobile-drop')
+
+
+    
+    // Toggle mobile sports menu
+    document.getElementById('mobileSportsToggle')?.addEventListener('click', () => {
+      document.getElementById('mobileSportsMenu').classList.toggle('hidden');
+    });
+  
+    // Dark mode toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const sunIcon = document.getElementById('sunIcon');
+    const moonIcon = document.getElementById('moonIcon');
+  
+    function updateThemeIcons() {
+      const darkMode = document.documentElement.classList.contains('dark');
+      sunIcon.classList.toggle('hidden', !darkMode);
+      moonIcon.classList.toggle('hidden', darkMode);
+    }
+  
+    themeToggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      updateThemeIcons();
+    });
+  
+    // Initial theme icon display
+    updateThemeIcons();
+  </script>
+  </form>
+</body>
+</html>

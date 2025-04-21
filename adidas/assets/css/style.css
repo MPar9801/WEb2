@@ -1,0 +1,290 @@
+/* Base Styles */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 2rem;
+}
+.hero-overlay h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.hero-overlay p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+.hero-overlay button {
+  background-color: white;
+  color: black;
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+.hero-overlay button:hover {
+  transform: scale(1.05);
+}
+.product-card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.img-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  overflow: hidden;
+}
+.default-img, .hover-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+.hover-img {
+  opacity: 0;
+}
+.product-card:hover .default-img {
+  opacity: 0;
+}
+.product-card:hover .hover-img {
+  opacity: 1;
+}
+/* Dropdown styles */
+.dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 300px;
+  background: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 50;
+}
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown-menu a {
+  display: block;
+  padding: 0.75rem 1.5rem;
+  color: #333;
+  transition: all 0.2s ease;
+}
+/* Add all the styles from your original index.html */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 2rem;
+}
+/* Continue with all other styles... */
+.dropdown-menu a:hover {
+  background: #f3f4f6;
+}
+.dropdown-menu h4 {
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+  }
+  
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  /* Product Cards */
+  .product-card {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .img-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+  }
+  
+  .default-img, .hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+  
+  .hover-img {
+    opacity: 0;
+  }
+  
+  .product-card:hover .default-img {
+    opacity: 0;
+  }
+  
+  .product-card:hover .hover-img {
+    opacity: 1;
+  }
+  
+  /* Dropdown styles */
+  .dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 300px;
+    background: white;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 50;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero-section {
+      height: 50vh;
+    }
+    
+    .hero-overlay h2 {
+      font-size: 2rem;
+    }
+    
+    .hero-overlay p {
+      font-size: 1rem;
+    }
+    
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-section {
+      height: 40vh;
+    }
+    
+    .grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .flex-col {
+      flex-direction: column;
+    }
+  }
+  
+  /* Dark Mode Styles */
+  .dark .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .dark .product-card {
+    background-color: #1f2937;
+  }
+  
+  .dark .product-card p {
+    color: #d1d5db;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
