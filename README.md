@@ -1,2 +1,4 @@
 # WEb2
-code of adidas web
+this the first project of Application Programming 
+Adibaas.infinityfreeapp.com
+
